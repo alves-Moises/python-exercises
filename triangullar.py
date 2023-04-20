@@ -1,5 +1,5 @@
 
-valid = False
+valid = False  # variavel de controle
 while not valid:
     #recebe o valor e valida o tipo inteiro
     try:
@@ -12,7 +12,7 @@ while not valid:
         else:
             valid = True  #muda valor da variável de controle caso o valor de entrada seja um número inteiro
 
-valid = False
+valid = False  #variavel de controle
 while not valid:
     # pergunta e valida triangulo par ou impar
     triangulo = input("Digite \"i\" para Triângulo impar ou \"p\" para triangulo par: ").lower()
@@ -29,9 +29,9 @@ else:
 
 
 produto = 1
+# calcular e apresentar os valores na tela
 for i in range(valor):
     produto *= n
     n += 2
-    print(produto, n)
+    print(f"{i + 1}ª valor: {produto}")
 
-print(produto)
