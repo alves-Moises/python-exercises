@@ -8,7 +8,6 @@ def cal_fat(x):
     return fatorial
 
 def main():
-    
     valid = False  # variavel de controle
 
     # validacao de input inteiro
